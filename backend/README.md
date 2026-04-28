@@ -24,6 +24,8 @@ pip install -r requirements.txt
 
 ### Set up the Database
 
+used Postgres.app for local development.
+
 With Postgres running, create a `trivia` database:
 
 ```bash
