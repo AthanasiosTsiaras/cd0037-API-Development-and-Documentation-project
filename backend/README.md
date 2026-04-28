@@ -50,7 +50,7 @@ flask run --reload
 
 The `--reload` flag will detect file changes and restart the server automatically.
 
-## To Do Tasks
+## To Do Tasks (COMPLETED)
 
 These are the files you'd want to edit in the backend:
 
