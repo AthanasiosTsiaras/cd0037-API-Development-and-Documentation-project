@@ -24,10 +24,10 @@ class TriviaTestCase(unittest.TestCase):
         with self.app.app_context():
             db.create_all()
             
-            # Seed a category and question so tests have data to work with
+            # create test question
             category = Category(type='Science')
             db.session.add(category)
-            db.session.flush() # gets the ID
+            db.session.flush()
             
             question = Question(
                 question='Test Question', 
